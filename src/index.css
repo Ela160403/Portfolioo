@@ -114,11 +114,12 @@ body {
 }
 
 .grid-default-color {
-  @apply p-6 bg-gradient-to-b from-storm to-indigo rounded-2xl;
+  /* Gradient from a dark indigo to a more vibrant electric purple/magenta */
+  @apply p-6 bg-gradient-to-b from-[#2C003E] to-[#601366] rounded-2xl;
 }
-
 .grid-special-color {
-  @apply p-6 bg-gradient-to-b from-royal to-lavender rounded-2xl;
+  /* Gradient from a very dark black to a glowing Spider-Man red */
+  @apply p-6 bg-gradient-to-b from-[#1A0000] to-[#8B0000] rounded-2xl;
 }
 .grid-black-color {
   @apply p-6 bg-gradient-to-tl from-[#3A3A3A] via-[#242424] to-[#3A3A3A] rounded-2xl;
